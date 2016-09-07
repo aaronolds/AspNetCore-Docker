@@ -1,5 +1,7 @@
 # This demo is based on a Blog post on https://stormpath.com/blog/tutorial-deploy-asp-net-core-on-linux-with-docker
-
+Other references:
+*  https://medium.com/trafi-tech-beat/running-net-core-on-docker-c438889eb5a#.ibbhafarm
+*  https://docs.microsoft.com/en-us/dotnet/articles/csharp/tutorials/microservices
 
 # Welcome to ASP.NET Core
 
