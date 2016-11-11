@@ -3,6 +3,11 @@ Other references:
 *  https://medium.com/trafi-tech-beat/running-net-core-on-docker-c438889eb5a#.ibbhafarm
 *  https://docs.microsoft.com/en-us/dotnet/articles/csharp/tutorials/microservices
 
+* To run this example, open a cmd window and run the dockerbuild.cmd.  This will build the build the dot net program, create the docker image, and start the docker container.
+* If all is successful, you should beable to connect to http://localhost:8080/api/employee and you will get a json object with an employee.
+* To stop the docker contianer run 'Docker kill mydemo'
+* To clean up old docker containers run 'FOR /f "tokens=*" %i IN ('docker ps -a -q') DO docker rm %i'
+
 # Welcome to ASP.NET Core
 
 We've made some big updates in this release, so it’s **important** that you spend a few minutes to learn what’s new.
